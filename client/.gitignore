@@ -1,0 +1,24 @@
+# Исключить папку node_modules
+node_modules/
+
+# Исключить логи
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Исключить директории окружений
+.env
+.env.local
+.env.*.local
+
+# Исключить временные файлы ОС и редакторов
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Исключить результаты сборки
+dist/
+build/
