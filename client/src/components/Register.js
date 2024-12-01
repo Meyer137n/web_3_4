@@ -13,9 +13,9 @@ function Register() {
         username,
         password,
       });
-      alert("Registration successful!");
+      alert("Регистрация прошла успешно!");
     } catch (error) {
-      alert("Registration failed. User may already exist.");
+      alert("Регистрация не удалась. Возможно пользователь уже существует.");
     }
   };
 

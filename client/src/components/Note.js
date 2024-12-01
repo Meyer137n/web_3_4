@@ -16,8 +16,8 @@ function Note() {
         });
         setNote(response.data.text || "");
       } catch (error) {
-        console.error("Error fetching note:", error);
-        alert("Failed to load note.");
+        console.error("Ошибка пролучения записи:", error);
+        alert("Не удалось загрузить запись.");
       }
     };
 
@@ -36,11 +36,11 @@ function Note() {
           },
         }
       );
-      alert("Note saved successfully.");
+      alert("Запись успешно сохранена.");
       setNote(response.data.text);
     } catch (error) {
-      console.error("Error saving note:", error);
-      alert("Failed to save note.");
+      console.error("Ошибка сохранения записи:", error);
+      alert("Не удалось сохранить запись.");
     }
   };
 

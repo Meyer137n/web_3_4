@@ -21,7 +21,7 @@ function Login() {
         navigate("/note");
       }
     } catch (error) {
-      alert("Invalid credentials");
+      alert("Неверные логин или пароль");
     }
   };
 
